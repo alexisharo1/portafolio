@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+body {
+	font-family: 'Anton', sans-serif;
+	background-image: url('https://images.pexels.com/photos/3888585/pexels-photo-3888585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')
+
+}
+.container{
+width: 90%;
+background: #002B5B;
+opacity: 0,5;
+padding: 10px 20px ;
+margin: auto;
+height: 90vh;
+box-shadow: 2px 2px 2px #fff;
+
+}
+.title{
+width: 90%;
+color: #FFF;
+text-align: center;
+background-color: #31087B;
+margin: auto;
+box-shadow: 2px 2px 2px #100F0F;
+padding-top: 10px;
+padding-bottom: 10px;
+text box-shadow: #7F5283;
+}
+
+
+
+
+hr{
+	color: #fff;
+	width: 90%;
+	height: 3px;
+}
+container-nav{
+	display: inline-block;
+	width: 45%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	color: #0909;
+	background-color: #fff;
+	overflow: hidden;
+	height: 70vh;
+}
+a{
+	color: #C21010;
+	display: block;
+	font-size: 18px;
+	width: 25%;
+	background-image: linear-gradient(to right,#000,#fff,#000);
+	text-decoration: none;
+	text-shadow: 2px 2px 3px #000;
+	padding-top: 5px;
+	padding-bottom: 8px;
+overflow: hidden;
+	text-align: center;
+	border-bottom-left-radius: 30px;
+	border-top-right-radius: 30px;
+	border-bottom:solid 6px #100F0F;
+
+}
+a:hover{
+	background-image: linear-gradient(to right,#fff,#000,#fff);
+color: #C21010;
+border-bottom: solid 6px #2B4865;
+
+}
+img{
+	display: inline-block;
+	float: right;
+	width: 70%;
+	height: 70%;
+}
